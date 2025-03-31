@@ -1,0 +1,82 @@
+html{
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+body{
+  background-color: hsl(0, 0%, 98%);
+}
+
+#loginContainer{
+  padding: 25px;
+}
+
+#registerContainer{
+  padding: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.095);
+}
+
+.errorMessage{
+  color: red;
+  font-weight: 500;
+  text-wrap: wrap;
+}
+
+#userBtn{
+  margin: 6px;
+  border-bottom: 1px solid white;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.card{
+  height: 20vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.095);
+}
+
+.card-body{
+  margin: 3px;
+  overflow-y: auto;
+}
+
+.modal-open{
+  padding-right: 0px !important;
+}
+
+#hero{
+  height: 25vh;
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/06/22/40/write-2209503_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.95);
+  h1{
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    text-shadow: 0px 0px 15px black;
+  }
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
