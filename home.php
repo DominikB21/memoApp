@@ -62,7 +62,9 @@ $allNotes = $notes->showNotes();
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <a href="./delete-account.php" class="btn btn-danger me-2" type="button">Delete account</a>
+               <form action="./delete-account.php" method="POST">
+                <button type="submit" name="deleteAccount" class="btn btn-danger me-2">Delete account</button>
+               </form>
             </div>
           </div>
         </div>

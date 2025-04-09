@@ -1,7 +1,11 @@
 <?php
 session_start();
 
-if(isset($_SESSION["id"])){
+if(!isset($_SESSION["id"])){
+  header("location: ./home.php");
+}
+
+if(isset($_POST["deleteAccount"])){
 
   // Grabbing data
 
@@ -23,6 +27,4 @@ if(isset($_SESSION["id"])){
 
   header("location: ./index.php?userSuccesfullyDeleted");
 
-}else{
-  header("location: ./home.php");
 }
